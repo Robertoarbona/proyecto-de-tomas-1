@@ -17,6 +17,6 @@ const catImageURL = data[0].url;
             .catch(error => {
                 console.error("Error fetching cat image:", error);
                 catImageContainer.innerHTML = "Error al cargar la imagen del gato. Intente de nuevo más tarde.";
-            });
-    });
-})
+            });
+    });
+});
